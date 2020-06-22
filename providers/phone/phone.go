@@ -1,6 +1,6 @@
 package phone
 
-import "github.com/qor/auth"
+import auth "github.com/jetjokers24895/qor_auth"
 
 func New() *PhoneProvider {
 	return &PhoneProvider{}

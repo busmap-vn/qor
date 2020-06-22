@@ -9,9 +9,9 @@ import (
 	"reflect"
 
 	"github.com/mrjones/oauth"
-	"github.com/qor/auth"
-	"github.com/qor/auth/auth_identity"
-	"github.com/qor/auth/claims"
+	auth "github.com/jetjokers24895/qor_auth"
+	"github.com/jetjokers24895/qor_auth/auth_identity"
+	"github.com/jetjokers24895/qor_auth/claims"
 	"github.com/qor/qor/utils"
 	"github.com/qor/session"
 )
@@ -135,7 +135,7 @@ func (Provider) GetName() string {
 // ConfigAuth config auth
 func (provider *Provider) ConfigAuth(auth *auth.Auth) {
 	provider.Auth = auth
-	provider.Auth.Render.RegisterViewPath("github.com/qor/auth/providers/twitter/views")
+	provider.Auth.Render.RegisterViewPath("github.com/jetjokers24895/qor_auth/providers/twitter/views")
 }
 
 // NewConsumer new twitter consumer

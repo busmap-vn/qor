@@ -20,13 +20,13 @@ Here is an example:
 package main
 
 import (
-  "github.com/qor/auth"
-  "github.com/qor/auth/auth_identity"
-  "github.com/qor/auth/providers/github"
-  "github.com/qor/auth/providers/google"
-  "github.com/qor/auth/providers/password"
-  "github.com/qor/auth/providers/facebook"
-  "github.com/qor/auth/providers/twitter"
+  auth "github.com/jetjokers24895/qor_auth"
+  "github.com/jetjokers24895/qor_auth/auth_identity"
+  "github.com/jetjokers24895/qor_auth/providers/github"
+  "github.com/jetjokers24895/qor_auth/providers/google"
+  "github.com/jetjokers24895/qor_auth/providers/password"
+  "github.com/jetjokers24895/qor_auth/providers/facebook"
+  "github.com/jetjokers24895/qor_auth/providers/twitter"
   "github.com/qor/session/manager"
 
   _ "github.com/mattn/go-sqlite3"
