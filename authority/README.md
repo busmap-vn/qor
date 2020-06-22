@@ -10,12 +10,12 @@ It is based on [Roles](http://github.com/qor/roles), means to define an ability,
 
 ### Initialize Authority
 
-Authority could use with [Auth](http://github.com/jetjokers24895/qor_auth) to get current user, handle sessions, you could use it, or implement your own [AuthInterface](http://godoc.org/github.com/qor/auth/authority#AuthInterface)
+Authority could use with [Auth](http://github.com/busmap-vn/qor/auth) to get current user, handle sessions, you could use it, or implement your own [AuthInterface](http://godoc.org/github.com/qor/auth/authority#AuthInterface)
 
 ```go
 import (
-  auth "github.com/jetjokers24895/qor_auth"
-  "github.com/jetjokers24895/qor_auth/authority"
+  auth "github.com/busmap-vn/qor/auth"
+  "github.com/busmap-vn/qor/auth/authority"
   "github.com/qor/roles"
 )
 

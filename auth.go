@@ -6,8 +6,8 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/gorm"
-	"github.com/jetjokers24895/qor_auth/auth_identity"
-	"github.com/jetjokers24895/qor_auth/claims"
+	"github.com/busmap-vn/qor/auth/auth_identity"
+	"github.com/busmap-vn/qor/auth/claims"
 	"github.com/qor/mailer"
 	"github.com/qor/mailer/logger"
 	"github.com/qor/redirect_back"
@@ -116,7 +116,7 @@ func New(config *Config) *Auth {
 		config.Render.RegisterViewPath(viewPath)
 	}
 
-	config.Render.RegisterViewPath("github.com/jetjokers24895/qor_auth/views")
+	config.Render.RegisterViewPath("github.com/busmap-vn/qor/auth/views")
 
 	auth := &Auth{Config: config}
 
