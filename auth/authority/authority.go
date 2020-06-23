@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"net/http"
 
-	auth "github.com/busmap-vn/qor/auth"
+	"github.com/busmap-vn/qor/auth"
 	"github.com/qor/middlewares"
 	"github.com/qor/roles"
 	"github.com/qor/session"

@@ -20,7 +20,7 @@ Here is an example:
 package main
 
 import (
-  auth "github.com/busmap-vn/qor/auth"
+  "github.com/busmap-vn/qor/auth"
   "github.com/busmap-vn/qor/auth/auth_identity"
   "github.com/busmap-vn/qor/auth/providers/github"
   "github.com/busmap-vn/qor/auth/providers/google"

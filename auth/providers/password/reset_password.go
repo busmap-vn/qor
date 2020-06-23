@@ -9,7 +9,7 @@ import (
 
 	"html/template"
 
-	auth "github.com/busmap-vn/qor/auth"
+	"github.com/busmap-vn/qor/auth"
 	"github.com/busmap-vn/qor/auth/auth_identity"
 	"github.com/busmap-vn/qor/auth/claims"
 	"github.com/qor/mailer"

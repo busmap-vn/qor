@@ -14,7 +14,7 @@ Authority could use with [Auth](http://github.com/busmap-vn/qor/auth) to get cur
 
 ```go
 import (
-  auth "github.com/busmap-vn/qor/auth"
+  "github.com/busmap-vn/qor/auth"
   "github.com/busmap-vn/qor/auth/authority"
   "github.com/qor/roles"
 )

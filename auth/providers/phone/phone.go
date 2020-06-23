@@ -1,6 +1,6 @@
 package phone
 
-import auth "github.com/busmap-vn/qor/auth"
+import "github.com/busmap-vn/qor/auth"
 
 func New() *PhoneProvider {
 	return &PhoneProvider{}
